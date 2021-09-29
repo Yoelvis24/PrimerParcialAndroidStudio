@@ -12,5 +12,9 @@
             android:id="@+id/productoEditViewFragment"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/registro_productos" />
+        <item
+            android:id="@+id/productoListFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/lista_de_productos" />
     </group>
 </menu>

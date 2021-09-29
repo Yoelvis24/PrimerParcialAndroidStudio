@@ -7,6 +7,7 @@ import com.google.android.material.navigation.NavigationView
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
+import com.example.android.primerparcial.ui.*
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
@@ -37,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_home, R.id.productoEditViewFragment
+                R.id.nav_home, R.id.productoEditViewFragment, R.id.productoListFragment
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)

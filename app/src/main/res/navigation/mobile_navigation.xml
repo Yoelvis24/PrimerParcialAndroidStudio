@@ -14,6 +14,11 @@
     <fragment
         android:id="@+id/productoEditViewFragment"
         android:name="com.example.android.primerparcial.ui.productoEditViewFragment"
-        android:label="producto_edit_view_fragment"
+        android:label="Registro de productos"
         tools:layout="@layout/producto_edit_view_fragment" />
+    <fragment
+        android:id="@+id/productoListFragment"
+        android:name="com.example.android.primerparcial.ui.productoList.productoListFragment"
+        android:label="Lista de productos"
+        tools:layout="@layout/producto_list_fragment" />
 </navigation>

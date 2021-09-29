@@ -1,5 +1,6 @@
 package com.example.android.primerparcial.repository
 
+import androidx.lifecycle.LiveData
 import androidx.room.Database
 import androidx.room.Delete
 import androidx.room.Update
@@ -25,6 +26,11 @@ class productoRepository(private val database: productoDb) {
     suspend fun Update(producto: producto)
     {
         database.productDao.Update(producto)
+    }
+
+    fun Lista(): LiveData<List<producto>>
+    {
+        return database.productDao.Lista()
     }
 
 }
