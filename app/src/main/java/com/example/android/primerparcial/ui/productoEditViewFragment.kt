@@ -65,7 +65,7 @@ class productoEditViewFragment : Fragment() {
 
         binding.eliminarButton.setOnClickListener{
             viewModel.Delete(AtraparId())
-            it.showMessage("El prpducto se ha eliminado")
+            it.showMessage("El producto se ha eliminado")
             Limpiar();
         }
     }
